@@ -1,0 +1,36 @@
+[2025-03-26 23:28:14.171] [Xeno] [info] Version: Xeno - v1.1.6
+[2025-03-26 23:28:14.172] [Xeno] [info] Logs stored in logs/2025-03-26_23-28-14.log
+[2025-03-26 23:28:14.173] [Xeno] [debug] Client Checker thread: 0x4dc197d5a0
+[2025-03-26 23:28:14.173] [Xeno] [debug] Xeno Caching thread: 0x4dc197d590
+[2025-03-26 23:28:14.173] [Xeno] [debug] WebSockets Cleaner thread: 0x4dc197d580
+[2025-03-26 23:28:14.173] [Cache] [info] File: C:\Users\bp210\AppData\Local\Temp\XENO_CACHE.bin
+[2025-03-26 23:28:14.173] [Xeno] [debug] Xeno Server thread: 0x4dc197d570
+[2025-03-26 23:28:14.173] [Cache] [info] Loaded cache: 0 RBXClients, 0 RBXBytecode, 0 RBXMFlags
+[2025-03-26 23:28:14.174] [Server] [info] Listening on http://localhost:3110
+[2025-03-26 23:28:14.190] [Xeno] [info] Terminated existing Xeno process: 14204
+[2025-03-26 23:28:14.630] [Xeno] [info] Creating new RBXClient: 32936
+[2025-03-26 23:28:14.630] [RBXClient] [info] [32936]: Initializing...
+[2025-03-26 23:28:14.631] [RBXClient] [info] [32936]: Version: version-bef193a8f3d14d3c
+[2025-03-26 23:28:14.631] [Xeno] [debug] Created RBXClient instance @0x1d2009497c0
+[2025-03-26 23:28:14.631] [Xeno] [info] Successfully created RBXClient: 32936
+[2025-03-26 23:28:14.632] [RBXClient] [debug] [32936]: Getting RenderView...
+[2025-03-26 23:28:14.971] [RBXClient] [debug] [32936]: String: 0x134cc20d280
+[2025-03-26 23:28:14.971] [RBXClient] [debug] [32936]: Renderview: 0x13481363290
+[2025-03-26 23:28:14.973] [RBXClient] [debug] [32936]: DataModel: 0x134c85da2d0
+[2025-03-26 23:28:14.979] [RBXClient] [debug] [32936]: LocalPlayer: 0x134cbc57210
+[2025-03-26 23:28:14.979] [RBXClient] [debug] [32936]: LocalPlayer Name: 'lcg93'
+[2025-03-26 23:28:15.001] [RBXClient] [debug] [32936]: EventConnection: 0x134a7e7fc00
+[2025-03-26 23:28:15.152] [RBXClient] [debug] [32936]: VRNavigation: 0x134cf7938d0
+[2025-03-26 23:28:15.167] [RBXClient] [debug] [32936]: StyledTextLabel: 0x134c8d681a0
+[2025-03-26 23:28:15.303] [RBXClient] [info] [32936]: Hook set successfully
+[2025-03-26 23:28:17.631] [RBXClient] [info] [32936]: Unhooked successfully after receiving ping from client
+[2025-03-26 23:28:30.498] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-03-26 23:28:48.145] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-03-26 23:28:54.050] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-03-26 23:28:54.081] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-03-26 23:28:55.047] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-03-26 23:28:55.080] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-03-26 23:29:16.596] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-03-26 23:51:50.626] [Xeno] [info] Removed RBXClient: 32936
+[2025-03-26 23:51:50.926] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-03-26 23:51:50.936] [Xeno] [info] Removing RBXClient 32936 from InitializedClients

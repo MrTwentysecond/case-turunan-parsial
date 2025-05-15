@@ -1,0 +1,28 @@
+[2025-05-08 21:14:41.264] [Xeno] [trace] Xeno is maintained by Rizve. If you find any bugs please report to rizve@xeno.now
+[2025-05-08 21:14:41.264] [Xeno] [info] Version: Xeno - v1.1.9
+[2025-05-08 21:14:41.264] [Xeno] [info] Logs stored in logs/2025-05-08_21-14-41.log
+[2025-05-08 21:14:41.265] [Xeno] [debug] Client Checker thread: 0xc12fbbd900
+[2025-05-08 21:14:41.266] [Xeno] [debug] Xeno Caching thread: 0xc12fbbd8f0
+[2025-05-08 21:14:41.266] [Xeno] [debug] WebSockets Cleaner thread: 0xc12fbbd8e0
+[2025-05-08 21:14:41.266] [Cache] [info] File: C:\Users\bp210\AppData\Local\Temp\XENO_CACHE.bin
+[2025-05-08 21:14:41.266] [Xeno] [debug] Xeno Server thread: 0xc12fbbd8d0
+[2025-05-08 21:14:41.266] [Cache] [info] Reattaching to cached client PID: 5920
+[2025-05-08 21:14:41.266] [Cache] [info] Loaded cache: 1 RBXClients, 1 RBXBytecode, 0 RBXMFlags, 1 RBXRenderViews
+[2025-05-08 21:14:41.266] [Xeno] [info] Creating new RBXClient: 5920
+[2025-05-08 21:14:41.266] [RBXClient] [info] [5920]: Initializing...
+[2025-05-08 21:14:41.267] [RBXClient] [info] [5920]: Version: version-1e91b4133e334c9c
+[2025-05-08 21:14:41.267] [Xeno] [debug] Created RBXClient instance @0x28e025dd5a0
+[2025-05-08 21:14:41.267] [Xeno] [info] Successfully created RBXClient: 5920
+[2025-05-08 21:14:41.267] [RBXClient] [debug] [5920]: Getting RenderView...
+[2025-05-08 21:14:41.267] [RBXClient] [info] [5920]: RenderView retrieved from Cache: 0x2964ab1df40
+[2025-05-08 21:14:41.267] [RBXClient] [debug] [5920]: DataModel: 0x2961543db00
+[2025-05-08 21:14:41.268] [Server] [info] Listening on http://localhost:3110
+[2025-05-08 21:14:41.269] [RBXClient] [debug] [5920]: LocalPlayer: 0x29618d35df0
+[2025-05-08 21:14:41.269] [RBXClient] [debug] [5920]: LocalPlayer Name: 'lcg93'
+[2025-05-08 21:14:41.275] [RBXClient] [debug] [5920]: EventConnection: 0x296100d1ca0
+[2025-05-08 21:14:41.285] [Xeno] [info] Terminated existing Xeno process: 15172
+[2025-05-08 21:14:41.413] [RBXClient] [debug] [5920]: StyledTextLabel: 0x29610c5d2f0
+[2025-05-08 21:14:41.515] [RBXClient] [debug] [5920]: StyledTextLabel SVMState: 0x0
+[2025-05-08 21:14:41.515] [RBXClient] [info] [5920]: StyledTextLabel PerVMState was set to NotRunYet
+[2025-05-08 21:20:45.008] [Xeno] [info] Removed RBXClient: 5920
+[2025-05-08 21:20:45.021] [Xeno] [info] Removing RBXClient 5920 from InitializedClients

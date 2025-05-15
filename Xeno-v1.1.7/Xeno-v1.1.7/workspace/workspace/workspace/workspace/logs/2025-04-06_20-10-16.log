@@ -1,0 +1,46 @@
+[2025-04-06 20:10:16.678] [Xeno] [info] Version: Xeno - v1.1.7
+[2025-04-06 20:10:16.678] [Xeno] [info] Logs stored in logs/2025-04-06_20-10-16.log
+[2025-04-06 20:10:16.679] [Xeno] [debug] Client Checker thread: 0x4dc7b7d510
+[2025-04-06 20:10:16.679] [Xeno] [debug] Xeno Caching thread: 0x4dc7b7d500
+[2025-04-06 20:10:16.679] [Xeno] [debug] WebSockets Cleaner thread: 0x4dc7b7d4f0
+[2025-04-06 20:10:16.679] [Xeno] [debug] Xeno Server thread: 0x4dc7b7d4e0
+[2025-04-06 20:10:16.679] [Cache] [info] File: C:\Users\bp210\AppData\Local\Temp\XENO_CACHE.bin
+[2025-04-06 20:10:16.680] [Cache] [info] Reattaching to cached client PID: 13292
+[2025-04-06 20:10:16.680] [Server] [info] Listening on http://localhost:3110
+[2025-04-06 20:10:16.681] [Cache] [info] Loaded cache: 1 RBXClients, 0 RBXBytecode, 0 RBXMFlags
+[2025-04-06 20:10:16.681] [Xeno] [info] Creating new RBXClient: 13292
+[2025-04-06 20:10:16.681] [RBXClient] [info] [13292]: Initializing...
+[2025-04-06 20:10:16.681] [RBXClient] [info] [13292]: Version: version-347f4ac346734391
+[2025-04-06 20:10:16.682] [Xeno] [debug] Created RBXClient instance @0x1e46a9b65e0
+[2025-04-06 20:10:16.682] [Xeno] [info] Successfully created RBXClient: 13292
+[2025-04-06 20:10:16.683] [RBXClient] [debug] [13292]: Getting RenderView...
+[2025-04-06 20:10:16.701] [Xeno] [info] Terminated existing Xeno process: 2904
+[2025-04-06 20:10:16.825] [RBXClient] [debug] [13292]: String: 0x1c48c9c1e60
+[2025-04-06 20:10:16.825] [RBXClient] [debug] [13292]: Renderview: 0x1c4c538b210
+[2025-04-06 20:10:16.825] [RBXClient] [debug] [13292]: DataModel: 0x1c5017666e0
+[2025-04-06 20:10:16.828] [RBXClient] [debug] [13292]: LocalPlayer: 0x1c5348cfcd0
+[2025-04-06 20:10:16.828] [RBXClient] [debug] [13292]: LocalPlayer Name: 'lcg93'
+[2025-04-06 20:10:16.833] [RBXClient] [info] [13292]: Client was already attached; handling functions...
+[2025-04-06 20:10:28.698] [Xeno] [info] Removed RBXClient: 13292
+[2025-04-06 20:10:28.716] [Xeno] [info] Removing RBXClient 13292 from InitializedClients
+[2025-04-06 20:10:28.983] [Xeno] [info] Creating new RBXClient: 2992
+[2025-04-06 20:10:28.983] [RBXClient] [info] [2992]: Initializing...
+[2025-04-06 20:10:28.983] [RBXClient] [info] [2992]: Version: version-347f4ac346734391
+[2025-04-06 20:10:28.983] [Xeno] [debug] Created RBXClient instance @0x1e4026d0480
+[2025-04-06 20:10:28.983] [Xeno] [info] Successfully created RBXClient: 2992
+[2025-04-06 20:10:28.983] [RBXClient] [info] [2992]: Waiting for Client Window
+[2025-04-06 20:10:32.431] [RBXClient] [info] [2992]: Found client window
+[2025-04-06 20:10:32.431] [RBXClient] [debug] [2992]: Getting RenderView...
+[2025-04-06 20:10:32.655] [RBXClient] [debug] [2992]: String: 0x2557da57580
+[2025-04-06 20:10:32.655] [RBXClient] [debug] [2992]: Renderview: 0x255544d75e0
+[2025-04-06 20:10:32.656] [RBXClient] [debug] [2992]: DataModel: 0x2554c864a90
+[2025-04-06 20:10:32.661] [RBXClient] [debug] [2992]: LocalPlayer: 0x255508007c0
+[2025-04-06 20:10:32.661] [RBXClient] [info] [2992]: Waiting for LocalPlayer to load...
+[2025-04-06 20:10:32.881] [RBXClient] [debug] [2992]: LocalPlayer Name: 'lcg93'
+[2025-04-06 20:10:33.612] [RBXClient] [warning] [2992]: Failed to get EventConnectionEmbedded Address. Retrying...
+[2025-04-06 20:10:33.612] [RBXClient] [warning] [2992]: Attempts Remaining: 8
+[2025-04-06 20:10:34.433] [RBXClient] [warning] [2992]: Attempts Remaining: 7
+[2025-04-06 20:10:35.285] [RBXClient] [warning] [2992]: Attempts Remaining: 6
+[2025-04-06 20:10:36.148] [RBXClient] [warning] [2992]: Attempts Remaining: 5
+[2025-04-06 20:10:36.456] [RBXClient] [debug] [2992]: EventConnectionEmbedded: 0x2551c2d9dd0
+[2025-04-06 20:10:36.457] [RBXClient] [info] [2992]: Bytecode has been successfully set in menu.

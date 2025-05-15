@@ -1,0 +1,24 @@
+[2025-04-06 20:07:52.079] [Xeno] [info] Version: Xeno - v1.1.7
+[2025-04-06 20:07:52.079] [Xeno] [info] Logs stored in logs/2025-04-06_20-07-52.log
+[2025-04-06 20:07:52.080] [Xeno] [debug] Client Checker thread: 0x18cf9cd9b0
+[2025-04-06 20:07:52.080] [Xeno] [debug] Xeno Caching thread: 0x18cf9cd9a0
+[2025-04-06 20:07:52.080] [Xeno] [debug] WebSockets Cleaner thread: 0x18cf9cd990
+[2025-04-06 20:07:52.080] [Xeno] [debug] Xeno Server thread: 0x18cf9cd980
+[2025-04-06 20:07:52.080] [Cache] [info] File: C:\Users\bp210\AppData\Local\Temp\XENO_CACHE.bin
+[2025-04-06 20:07:52.081] [Server] [info] Listening on http://localhost:3110
+[2025-04-06 20:07:52.082] [Cache] [info] Loaded cache: 0 RBXClients, 0 RBXBytecode, 0 RBXMFlags
+[2025-04-06 20:08:11.324] [Xeno] [info] Creating new RBXClient: 17380
+[2025-04-06 20:08:11.324] [RBXClient] [info] [17380]: Initializing...
+[2025-04-06 20:08:11.324] [RBXClient] [info] [17380]: Version: version-347f4ac346734391
+[2025-04-06 20:08:11.324] [Xeno] [debug] Created RBXClient instance @0x1d18292f230
+[2025-04-06 20:08:11.324] [Xeno] [info] Successfully created RBXClient: 17380
+[2025-04-06 20:08:11.325] [RBXClient] [debug] [17380]: Getting RenderView...
+[2025-04-06 20:08:11.540] [RBXClient] [debug] [17380]: String: 0x2bd452a4090
+[2025-04-06 20:08:11.541] [RBXClient] [debug] [17380]: Renderview: 0x2bd7b9829f0
+[2025-04-06 20:08:11.541] [RBXClient] [debug] [17380]: DataModel: 0x2bd450adda0
+[2025-04-06 20:08:11.547] [RBXClient] [debug] [17380]: LocalPlayer: 0x2bd449bb370
+[2025-04-06 20:08:11.548] [RBXClient] [debug] [17380]: LocalPlayer Name: 'lcg93'
+[2025-04-06 20:08:11.567] [RBXClient] [debug] [17380]: EventConnection: 0x2bd3c4ae590
+[2025-04-06 20:08:11.667] [RBXClient] [debug] [17380]: VRNavigation: 0x2bd4c0c2a90
+[2025-04-06 20:08:11.674] [RBXClient] [debug] [17380]: StyledTextLabel: 0x2bd40245bd0
+[2025-04-06 20:08:11.763] [RBXClient] [info] [17380]: Hook set successfully

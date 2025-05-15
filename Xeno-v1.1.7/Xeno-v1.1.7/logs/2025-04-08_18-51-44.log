@@ -1,0 +1,139 @@
+[2025-04-08 18:51:44.208] [Xeno] [info] Version: Xeno - v1.1.7
+[2025-04-08 18:51:44.208] [Xeno] [info] Logs stored in logs/2025-04-08_18-51-44.log
+[2025-04-08 18:51:44.209] [Xeno] [debug] Client Checker thread: 0xe66f1ad9a0
+[2025-04-08 18:51:44.209] [Xeno] [debug] Xeno Caching thread: 0xe66f1ad990
+[2025-04-08 18:51:44.209] [Xeno] [debug] WebSockets Cleaner thread: 0xe66f1ad980
+[2025-04-08 18:51:44.209] [Xeno] [debug] Xeno Server thread: 0xe66f1ad970
+[2025-04-08 18:51:44.209] [Cache] [info] File: C:\Users\bp210\AppData\Local\Temp\XENO_CACHE.bin
+[2025-04-08 18:51:44.209] [Server] [info] Listening on http://localhost:3110
+[2025-04-08 18:51:44.217] [Cache] [info] Loaded cache: 0 RBXClients, 0 RBXBytecode, 0 RBXMFlags
+[2025-04-08 18:51:56.222] [Xeno] [info] Creating new RBXClient: 8724
+[2025-04-08 18:51:56.222] [RBXClient] [info] [8724]: Initializing...
+[2025-04-08 18:51:56.222] [RBXClient] [info] [8724]: Version: version-347f4ac346734391
+[2025-04-08 18:51:56.222] [Xeno] [debug] Created RBXClient instance @0x2150494dcc0
+[2025-04-08 18:51:56.222] [Xeno] [info] Successfully created RBXClient: 8724
+[2025-04-08 18:51:56.222] [RBXClient] [debug] [8724]: Getting RenderView...
+[2025-04-08 18:51:56.377] [RBXClient] [debug] [8724]: String: 0x179be6b4b00
+[2025-04-08 18:51:56.377] [RBXClient] [debug] [8724]: Renderview: 0x179814c1c80
+[2025-04-08 18:51:56.378] [RBXClient] [debug] [8724]: DataModel: 0x179ca20d810
+[2025-04-08 18:51:56.381] [RBXClient] [debug] [8724]: LocalPlayer: 0x179c50e9de0
+[2025-04-08 18:51:56.381] [RBXClient] [debug] [8724]: LocalPlayer Name: 'lcg93'
+[2025-04-08 18:51:56.398] [RBXClient] [debug] [8724]: EventConnection: 0x179c3e182f0
+[2025-04-08 18:51:56.465] [RBXClient] [debug] [8724]: VRNavigation: 0x179db373cf0
+[2025-04-08 18:51:56.469] [RBXClient] [debug] [8724]: StyledTextLabel: 0x179c40f5b30
+[2025-04-08 18:51:56.529] [RBXClient] [info] [8724]: Hook set successfully
+[2025-04-08 18:51:58.136] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 18:52:15.676] [WebSocket] [debug] Connection established for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 18:52:22.443] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 18:52:22.504] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 18:52:24.702] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 18:52:24.744] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 18:52:30.922] [WebSocket] [debug] WebSocket Closed for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 18:52:33.132] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 18:52:38.548] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 18:52:43.425] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 18:52:48.387] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 18:52:48.731] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 18:52:50.486] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 18:52:50.518] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 18:54:50.760] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 18:54:51.983] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 18:54:57.106] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 18:55:14.671] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 18:55:20.548] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 18:55:20.581] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 18:55:22.331] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 18:55:22.365] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:05:06.592] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:05:11.029] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:05:16.190] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:05:22.848] [WebSocket] [debug] Connection established for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:05:28.109] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:05:28.141] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:05:29.893] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:05:29.923] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:09:46.641] [WebSocket] [debug] WebSocket Closed for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:09:48.036] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:09:53.146] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:09:56.847] [WebSocket] [debug] Connection established for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:10:01.862] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:10:01.895] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:10:03.666] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:10:03.698] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:34:35.455] [WebSocket] [debug] WebSocket Closed for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:34:38.322] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:34:43.658] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:35:28.800] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:35:33.485] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:35:33.516] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:35:35.268] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:35:35.301] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:37:29.979] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:37:31.549] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:37:36.786] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:38:43.934] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:38:47.196] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:38:47.227] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:38:48.978] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:38:49.010] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:39:07.972] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:39:10.688] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:39:15.826] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:39:16.327] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:39:21.859] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:39:21.892] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:39:23.645] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:39:23.678] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:41:01.221] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:41:03.914] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:41:09.068] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:41:28.567] [WebSocket] [debug] Connection established for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:41:34.870] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:41:34.904] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:41:36.654] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:41:36.686] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:43:13.585] [WebSocket] [debug] WebSocket Closed for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:43:15.800] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:43:20.931] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:43:22.166] [WebSocket] [debug] Connection established for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:43:26.549] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:43:26.582] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:43:28.332] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC"
+[2025-04-08 19:43:28.365] [Server] [error] Encountered an exception: create_directory: unknown error: "Lunor/AC/settings"
+[2025-04-08 19:43:29.088] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:44:15.241] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:45:04.345] [WebSocket] [debug] WebSocket Closed for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:45:12.599] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:45:17.727] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:48:20.234] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:48:25.643] [RBXClient] [info] [8724]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:48:27.866] [WebSocket] [debug] Connection established for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:48:30.497] [WebSocket] [debug] Connection established for 'wss://as2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:48:52.904] [Xeno] [info] Removed RBXClient: 8724
+[2025-04-08 19:48:53.204] [WebSocket] [debug] WebSocket Closed for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:48:53.505] [WebSocket] [debug] WebSocket Closed for 'wss://as2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:49:17.087] [Xeno] [info] Creating new RBXClient: 19600
+[2025-04-08 19:49:17.087] [RBXClient] [info] [19600]: Initializing...
+[2025-04-08 19:49:17.087] [RBXClient] [info] [19600]: Version: version-347f4ac346734391
+[2025-04-08 19:49:17.087] [Xeno] [debug] Created RBXClient instance @0x2157f6471b0
+[2025-04-08 19:49:17.087] [Xeno] [info] Successfully created RBXClient: 19600
+[2025-04-08 19:49:17.087] [RBXClient] [debug] [19600]: Getting RenderView...
+[2025-04-08 19:49:17.198] [RBXClient] [debug] [19600]: String: 0x2461d5727c0
+[2025-04-08 19:49:17.198] [RBXClient] [debug] [19600]: Renderview: 0x246532d4b20
+[2025-04-08 19:49:17.199] [RBXClient] [debug] [19600]: DataModel: 0x2461fac5670
+[2025-04-08 19:49:17.203] [RBXClient] [debug] [19600]: LocalPlayer: 0x24621442600
+[2025-04-08 19:49:17.203] [RBXClient] [debug] [19600]: LocalPlayer Name: 'lcg93'
+[2025-04-08 19:49:17.213] [RBXClient] [debug] [19600]: EventConnection: 0x24616e35e40
+[2025-04-08 19:49:17.278] [RBXClient] [debug] [19600]: VRNavigation: 0x246281cf9f0
+[2025-04-08 19:49:17.282] [RBXClient] [debug] [19600]: StyledTextLabel: 0x2461676eae0
+[2025-04-08 19:49:17.347] [RBXClient] [info] [19600]: Hook set successfully
+[2025-04-08 19:49:18.493] [RBXClient] [info] [19600]: Unhooked successfully after receiving ping from client
+[2025-04-08 19:49:26.792] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:49:49.201] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:49:49.287] [WebSocket] [debug] Connection established for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:50:15.356] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:50:35.362] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:50:42.999] [WebSocket] [debug] WebSocket Closed for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:50:46.735] [WebSocket] [debug] Connection established for 'wss://as2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:50:46.735] [WebSocket] [debug] Connection established for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-08 19:50:47.670] [WebSocket] [debug] Connection established for 'wss://as1-roblox-auth.luarmor.net:443/wshttpemu'

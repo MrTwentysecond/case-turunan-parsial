@@ -1,0 +1,53 @@
+[2025-04-06 20:08:12.535] [Xeno] [info] Version: Xeno - v1.1.7
+[2025-04-06 20:08:12.536] [Xeno] [info] Logs stored in logs/2025-04-06_20-08-12.log
+[2025-04-06 20:08:12.536] [Xeno] [debug] Client Checker thread: 0x9108f7d580
+[2025-04-06 20:08:12.537] [Xeno] [debug] Xeno Caching thread: 0x9108f7d570
+[2025-04-06 20:08:12.537] [Xeno] [debug] WebSockets Cleaner thread: 0x9108f7d560
+[2025-04-06 20:08:12.537] [Xeno] [debug] Xeno Server thread: 0x9108f7d550
+[2025-04-06 20:08:12.537] [Cache] [info] File: C:\Users\bp210\AppData\Local\Temp\XENO_CACHE.bin
+[2025-04-06 20:08:12.537] [Cache] [info] Reattaching to cached client PID: 17380
+[2025-04-06 20:08:12.537] [Cache] [info] Loaded cache: 1 RBXClients, 1 RBXBytecode, 1 RBXMFlags
+[2025-04-06 20:08:12.537] [Xeno] [info] Creating new RBXClient: 17380
+[2025-04-06 20:08:12.537] [Server] [info] Listening on http://localhost:3110
+[2025-04-06 20:08:12.537] [RBXClient] [info] [17380]: Initializing...
+[2025-04-06 20:08:12.537] [RBXClient] [info] [17380]: Version: version-347f4ac346734391
+[2025-04-06 20:08:12.537] [Xeno] [debug] Created RBXClient instance @0x200d3c17930
+[2025-04-06 20:08:12.537] [Xeno] [info] Successfully created RBXClient: 17380
+[2025-04-06 20:08:12.538] [RBXClient] [debug] [17380]: Getting RenderView...
+[2025-04-06 20:08:12.550] [Xeno] [info] Terminated existing Xeno process: 13672
+[2025-04-06 20:08:12.854] [RBXClient] [debug] [17380]: String: 0x2bd452a4090
+[2025-04-06 20:08:12.855] [RBXClient] [debug] [17380]: Renderview: 0x2bd7b9829f0
+[2025-04-06 20:08:12.855] [RBXClient] [debug] [17380]: DataModel: 0x2bd450adda0
+[2025-04-06 20:08:12.866] [RBXClient] [debug] [17380]: LocalPlayer: 0x2bd449bb370
+[2025-04-06 20:08:12.868] [RBXClient] [debug] [17380]: LocalPlayer Name: 'lcg93'
+[2025-04-06 20:08:12.881] [RBXClient] [info] [17380]: Client was already attached; handling functions...
+[2025-04-06 20:08:21.860] [WebSocket] [debug] Connection established for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-06 20:08:29.249] [Xeno] [info] Removed RBXClient: 17380
+[2025-04-06 20:08:29.549] [WebSocket] [debug] WebSocket Closed for 'wss://as3-roblox-auth.luarmor.net:443/wshttpemu'
+[2025-04-06 20:08:29.585] [Xeno] [info] Removing RBXClient 17380 from InitializedClients
+[2025-04-06 20:08:34.496] [Xeno] [info] Creating new RBXClient: 33216
+[2025-04-06 20:08:34.496] [RBXClient] [info] [33216]: Initializing...
+[2025-04-06 20:08:34.496] [RBXClient] [critical] [33216]: Invalid client handle
+[2025-04-06 20:08:34.496] [Xeno] [debug] Created RBXClient instance @0x20083de1760
+[2025-04-06 20:08:34.496] [Xeno] [info] Successfully created RBXClient: 33216
+[2025-04-06 20:08:34.748] [Xeno] [info] Removed RBXClient: 33216
+[2025-04-06 20:08:34.761] [Xeno] [info] Creating new RBXClient: 13292
+[2025-04-06 20:08:34.761] [RBXClient] [info] [13292]: Initializing...
+[2025-04-06 20:08:34.761] [RBXClient] [info] [13292]: Version: version-347f4ac346734391
+[2025-04-06 20:08:34.762] [Xeno] [debug] Created RBXClient instance @0x20083de0360
+[2025-04-06 20:08:34.762] [Xeno] [info] Successfully created RBXClient: 13292
+[2025-04-06 20:08:34.762] [RBXClient] [info] [13292]: Waiting for Client Window
+[2025-04-06 20:08:39.455] [RBXClient] [info] [13292]: Found client window
+[2025-04-06 20:08:39.456] [RBXClient] [debug] [13292]: Getting RenderView...
+[2025-04-06 20:08:39.766] [RBXClient] [debug] [13292]: String: 0x1c4eb870680
+[2025-04-06 20:08:39.766] [RBXClient] [debug] [13292]: Renderview: 0x1c4c538b210
+[2025-04-06 20:08:39.766] [RBXClient] [info] [13292]: Waiting for DataModel...
+[2025-04-06 20:08:39.869] [RBXClient] [debug] [13292]: DataModel: 0x1c4bd20a720
+[2025-04-06 20:08:39.875] [RBXClient] [debug] [13292]: LocalPlayer: 0x1c4c18f7010
+[2025-04-06 20:08:39.875] [RBXClient] [debug] [13292]: LocalPlayer Name: 'lcg93'
+[2025-04-06 20:08:40.788] [RBXClient] [warning] [13292]: Failed to get EventConnectionEmbedded Address. Retrying...
+[2025-04-06 20:08:40.788] [RBXClient] [warning] [13292]: Attempts Remaining: 8
+[2025-04-06 20:08:41.869] [RBXClient] [warning] [13292]: Attempts Remaining: 7
+[2025-04-06 20:08:42.113] [RBXClient] [debug] [13292]: EventConnectionEmbedded: 0x1c4848b2590
+[2025-04-06 20:08:42.113] [RBXClient] [info] [13292]: Bytecode has been successfully set in menu.
+[2025-04-06 20:09:14.900] [WebSocket] [debug] Connection established for 'wss://au2-roblox-auth.luarmor.net:443/wshttpemu'

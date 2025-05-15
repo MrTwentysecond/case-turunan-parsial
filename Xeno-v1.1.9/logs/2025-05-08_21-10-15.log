@@ -1,0 +1,68 @@
+[2025-05-08 21:10:15.519] [Xeno] [trace] Xeno is maintained by Rizve. If you find any bugs please report to rizve@xeno.now
+[2025-05-08 21:10:15.519] [Xeno] [info] Version: Xeno - v1.1.9
+[2025-05-08 21:10:15.519] [Xeno] [info] Logs stored in logs/2025-05-08_21-10-15.log
+[2025-05-08 21:10:15.521] [Xeno] [debug] Client Checker thread: 0xbe87bad4a0
+[2025-05-08 21:10:15.521] [Xeno] [debug] Xeno Caching thread: 0xbe87bad490
+[2025-05-08 21:10:15.522] [Xeno] [debug] WebSockets Cleaner thread: 0xbe87bad480
+[2025-05-08 21:10:15.522] [Xeno] [debug] Xeno Server thread: 0xbe87bad470
+[2025-05-08 21:10:15.522] [Cache] [info] File: C:\Users\bp210\AppData\Local\Temp\XENO_CACHE.bin
+[2025-05-08 21:10:15.522] [Cache] [info] Reattaching to cached client PID: 3272
+[2025-05-08 21:10:15.522] [Cache] [info] Loaded cache: 1 RBXClients, 0 RBXBytecode, 0 RBXMFlags, 1 RBXRenderViews
+[2025-05-08 21:10:15.522] [Server] [info] Listening on http://localhost:3110
+[2025-05-08 21:10:15.523] [Xeno] [info] Creating new RBXClient: 3272
+[2025-05-08 21:10:15.523] [RBXClient] [info] [3272]: Initializing...
+[2025-05-08 21:10:15.523] [RBXClient] [info] [3272]: Version: version-1e91b4133e334c9c
+[2025-05-08 21:10:15.523] [Xeno] [debug] Created RBXClient instance @0x2b71eba75e0
+[2025-05-08 21:10:15.523] [Xeno] [info] Successfully created RBXClient: 3272
+[2025-05-08 21:10:15.525] [RBXClient] [debug] [3272]: Getting RenderView...
+[2025-05-08 21:10:15.525] [RBXClient] [info] [3272]: RenderView retrieved from Cache: 0x1bfdc2ec520
+[2025-05-08 21:10:15.525] [RBXClient] [debug] [3272]: DataModel: 0x1bfa6271c40
+[2025-05-08 21:10:15.527] [RBXClient] [debug] [3272]: LocalPlayer: 0x1bfaa7e1010
+[2025-05-08 21:10:15.527] [RBXClient] [debug] [3272]: LocalPlayer Name: 'lcg93'
+[2025-05-08 21:10:15.532] [RBXClient] [debug] [3272]: EventConnection: 0x1bfa30be4c0
+[2025-05-08 21:10:15.637] [RBXClient] [debug] [3272]: StyledTextLabel: 0x1bfa3d2a310
+[2025-05-08 21:10:15.735] [RBXClient] [debug] [3272]: StyledTextLabel SVMState: 0x0
+[2025-05-08 21:10:15.735] [RBXClient] [info] [3272]: StyledTextLabel PerVMState was set to NotRunYet
+[2025-05-08 21:10:44.330] [Xeno] [info] Creating new RBXClient: 4124
+[2025-05-08 21:10:44.330] [RBXClient] [info] [4124]: Initializing...
+[2025-05-08 21:10:44.330] [RBXClient] [info] [4124]: Version: version-1e91b4133e334c9c
+[2025-05-08 21:10:44.330] [Xeno] [debug] Created RBXClient instance @0x2f7b443fd00
+[2025-05-08 21:10:44.330] [Xeno] [info] Successfully created RBXClient: 4124
+[2025-05-08 21:10:44.331] [RBXClient] [info] [4124]: Waiting for Client Window
+[2025-05-08 21:10:44.608] [Xeno] [info] Creating new RBXClient: 10432
+[2025-05-08 21:10:44.608] [RBXClient] [info] [10432]: Initializing...
+[2025-05-08 21:10:44.608] [RBXClient] [critical] [10432]: Invalid client handle
+[2025-05-08 21:10:44.608] [Xeno] [debug] Created RBXClient instance @0x2f7b443e3b0
+[2025-05-08 21:10:44.608] [Xeno] [info] Successfully created RBXClient: 10432
+[2025-05-08 21:10:44.867] [Xeno] [info] Removed RBXClient: 10432
+[2025-05-08 21:10:44.881] [Xeno] [info] Removing RBXClient 10432 from InitializedClients
+[2025-05-08 21:10:48.186] [Xeno] [info] Removed RBXClient: 3272
+[2025-05-08 21:10:48.198] [Xeno] [info] Removing RBXClient 3272 from InitializedClients
+[2025-05-08 21:10:51.486] [Xeno] [info] Creating new RBXClient: 5920
+[2025-05-08 21:10:51.487] [RBXClient] [info] [5920]: Initializing...
+[2025-05-08 21:10:51.487] [RBXClient] [info] [5920]: Version: version-1e91b4133e334c9c
+[2025-05-08 21:10:51.487] [Xeno] [debug] Created RBXClient instance @0x2f7b443e1d0
+[2025-05-08 21:10:51.487] [Xeno] [info] Successfully created RBXClient: 5920
+[2025-05-08 21:10:51.487] [RBXClient] [info] [5920]: Waiting for Client Window
+[2025-05-08 21:10:51.669] [RBXClient] [info] [4124]: Found client window
+[2025-05-08 21:10:51.669] [RBXClient] [debug] [4124]: Getting RenderView...
+[2025-05-08 21:10:51.940] [RBXClient] [debug] [4124]: String: 0x2424817d870
+[2025-05-08 21:10:51.940] [RBXClient] [debug] [4124]: Renderview: 0x24221be89c0
+[2025-05-08 21:10:51.940] [RBXClient] [info] [4124]: Waiting for DataModel...
+[2025-05-08 21:10:52.150] [RBXClient] [debug] [4124]: DataModel: 0x2421a4d1ac0
+[2025-05-08 21:10:52.152] [RBXClient] [debug] [4124]: LocalPlayer: 0x24222e24f70
+[2025-05-08 21:10:52.152] [RBXClient] [debug] [4124]: LocalPlayer Name: 'lcg93'
+[2025-05-08 21:10:52.440] [RBXClient] [debug] [4124]: EventConnectionEmbedded: 0x2422090c090
+[2025-05-08 21:10:53.216] [RBXClient] [info] [4124]: Bytecode has been successfully set in menu.
+[2025-05-08 21:10:55.899] [Xeno] [info] Removed RBXClient: 4124
+[2025-05-08 21:10:55.910] [Xeno] [info] Removing RBXClient 4124 from InitializedClients
+[2025-05-08 21:10:56.579] [RBXClient] [info] [5920]: Found client window
+[2025-05-08 21:10:56.579] [RBXClient] [debug] [5920]: Getting RenderView...
+[2025-05-08 21:10:56.802] [RBXClient] [debug] [5920]: String: 0x29671469ef0
+[2025-05-08 21:10:56.802] [RBXClient] [debug] [5920]: Renderview: 0x2964ab1df40
+[2025-05-08 21:10:56.802] [RBXClient] [debug] [5920]: DataModel: 0x29643204680
+[2025-05-08 21:10:56.804] [RBXClient] [debug] [5920]: LocalPlayer: 0x2964b4d9710
+[2025-05-08 21:10:56.804] [RBXClient] [debug] [5920]: LocalPlayer Name: 'lcg93'
+[2025-05-08 21:10:57.072] [RBXClient] [debug] [5920]: EventConnectionEmbedded: 0x29649068070
+[2025-05-08 21:10:57.686] [RBXClient] [info] [5920]: Bytecode has been successfully set in menu.
+[2025-05-08 21:12:10.068] [Execution] [error] [5920]: Could not find a CoreModule

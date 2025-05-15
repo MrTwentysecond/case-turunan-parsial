@@ -1,0 +1,27 @@
+[2025-03-26 23:24:19.112] [Xeno] [info] Version: Xeno - v1.1.6
+[2025-03-26 23:24:19.113] [Xeno] [info] Logs stored in logs/2025-03-26_23-24-19.log
+[2025-03-26 23:24:19.117] [Xeno] [debug] Client Checker thread: 0x8b167ad4a0
+[2025-03-26 23:24:19.117] [Xeno] [debug] Xeno Caching thread: 0x8b167ad490
+[2025-03-26 23:24:19.117] [Xeno] [debug] WebSockets Cleaner thread: 0x8b167ad480
+[2025-03-26 23:24:19.117] [Xeno] [debug] Xeno Server thread: 0x8b167ad470
+[2025-03-26 23:24:19.117] [Cache] [info] File: C:\Users\bp210\AppData\Local\Temp\XENO_CACHE.bin
+[2025-03-26 23:24:19.117] [Cache] [debug] No cache file found at C:\Users\bp210\AppData\Local\Temp\XENO_CACHE.bin
+[2025-03-26 23:24:19.118] [Cache] [warning] No valid cache found - starting fresh
+[2025-03-26 23:24:19.118] [Server] [info] Listening on http://localhost:3110
+[2025-03-26 23:24:54.483] [Xeno] [info] Creating new RBXClient: 28100
+[2025-03-26 23:24:54.483] [RBXClient] [info] [28100]: Initializing...
+[2025-03-26 23:24:54.483] [RBXClient] [info] [28100]: Version: version-bef193a8f3d14d3c
+[2025-03-26 23:24:54.483] [Xeno] [debug] Created RBXClient instance @0x2462e2c9f90
+[2025-03-26 23:24:54.483] [Xeno] [info] Successfully created RBXClient: 28100
+[2025-03-26 23:24:54.483] [RBXClient] [debug] [28100]: Getting RenderView...
+[2025-03-26 23:24:55.043] [RBXClient] [debug] [28100]: String: 0x1c293240470
+[2025-03-26 23:24:55.044] [RBXClient] [debug] [28100]: Renderview: 0x1c27b0d52d0
+[2025-03-26 23:24:55.044] [RBXClient] [debug] [28100]: DataModel: 0x1c27f22c6e0
+[2025-03-26 23:24:55.049] [RBXClient] [debug] [28100]: LocalPlayer: 0x1c28e3a8590
+[2025-03-26 23:24:55.049] [RBXClient] [debug] [28100]: LocalPlayer Name: 'lcg93'
+[2025-03-26 23:24:55.063] [RBXClient] [debug] [28100]: EventConnection: 0x1c25471d1b0
+[2025-03-26 23:24:55.169] [RBXClient] [debug] [28100]: VRNavigation: 0x1c2a10064a0
+[2025-03-26 23:24:55.178] [RBXClient] [debug] [28100]: StyledTextLabel: 0x1c254486c90
+[2025-03-26 23:24:55.277] [RBXClient] [info] [28100]: Hook set successfully
+[2025-03-26 23:25:39.181] [Execution] [error] [28100]: Could not find a CoreModule
+[2025-03-26 23:25:40.387] [RBXClient] [info] [28100]: Unhooked successfully after receiving ping from client
