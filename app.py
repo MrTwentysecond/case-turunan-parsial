@@ -1,56 +1,73 @@
-# file: cobb_douglas_app.py
-
 import streamlit as st
-import sympy as sp
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
+import plotly.graph_objs as go
 
-st.title("📊 Analisis Fungsi Produksi Cobb-Douglas")
+st.set_page_config(layout="wide")
+st.title("Visualisasi Gunung 3D dengan Turunan Parsial")
 
-# Input pengguna
-st.sidebar.header("Masukkan Parameter:")
-A_val = st.sidebar.number_input("Nilai A (Total Faktor Produktivitas)", value=1.0)
-alpha_val = st.sidebar.number_input("Nilai α (elastisitas tenaga kerja)", value=0.3)
-beta_val = st.sidebar.number_input("Nilai β (elastisitas modal)", value=0.7)
-L_val = st.sidebar.number_input("Jumlah Tenaga Kerja (L)", value=100.0)
-K_val = st.sidebar.number_input("Jumlah Modal (K)", value=50.0)
+# Fungsi menyerupai gunung sungguhan
+def gunung(x, y):
+    return 80 * np.exp(-0.05*(x**2 + y**2)) + 20 * np.exp(-0.5*((x - 3)**2 + (y + 3)**2))
 
-# Definisikan simbol dan fungsi
-A, L, K, alpha, beta = sp.symbols('A L K alpha beta')
-Q = A * L**alpha * K**beta
+# Turunan parsial
+def dfdx(x, y):
+    return -0.05 * 2 * x * 80 * np.exp(-0.05*(x**2 + y**2)) - 0.5 * 2 * (x - 3) * 20 * np.exp(-0.5*((x - 3)**2 + (y + 3)**2))
 
-# Hitung turunan parsial
-dQ_dL = sp.diff(Q, L)
-dQ_dK = sp.diff(Q, K)
+def dfdy(x, y):
+    return -0.05 * 2 * y * 80 * np.exp(-0.05*(x**2 + y**2)) - 0.5 * 2 * (y + 3) * 20 * np.exp(-0.5*((x - 3)**2 + (y + 3)**2))
 
-# Substitusi nilai input
-subs_dict = {A: A_val, L: L_val, K: K_val, alpha: alpha_val, beta: beta_val}
-Q_val = Q.evalf(subs=subs_dict)
-dQdL_val = dQ_dL.evalf(subs=subs_dict)
-dQdK_val = dQ_dK.evalf(subs=subs_dict)
+# Input titik dari pengguna
+x0 = st.slider("Pilih nilai x", -10.0, 10.0, 2.0)
+y0 = st.slider("Pilih nilai y", -10.0, 10.0, 3.0)
+z0 = gunung(x0, y0)
 
-# Tampilkan hasil
-st.subheader("🔣 Fungsi Produksi:")
-st.latex(r"Q = A \cdot L^{\alpha} \cdot K^{\beta}")
+dz_dx = dfdx(x0, y0)
+dz_dy = dfdy(x0, y0)
 
-st.subheader("📉 Hasil Evaluasi:")
-st.write(f"Output Produksi (Q) = {Q_val:.2f}")
-st.write(f"Turunan Parsial terhadap L (∂Q/∂L) = {dQdL_val:.2f}")
-st.write(f"Turunan Parsial terhadap K (∂Q/∂K) = {dQdK_val:.2f}")
+st.markdown(f"""
+**Titik yang dipilih:** ({x0:.2f}, {y0:.2f})  
+**Ketinggian (z):** {z0:.2f} meter  
+**Turunan terhadap x (kemiringan timur-barat):** {dz_dx:.2f}  
+**Turunan terhadap y (kemiringan utara-selatan):** {dz_dy:.2f}
+""")
 
-# Visualisasi Fungsi Produksi
-st.subheader("📈 Visualisasi Fungsi Produksi dalam 3D")
+# Buat permukaan gunung
+x = np.linspace(-10, 10, 200)
+y = np.linspace(-10, 10, 200)
+X, Y = np.meshgrid(x, y)
+Z = gunung(X, Y)
 
-L_range = np.linspace(1, 200, 50)
-K_range = np.linspace(1, 200, 50)
-L_mesh, K_mesh = np.meshgrid(L_range, K_range)
-Q_mesh = A_val * L_mesh**alpha_val * K_mesh**beta_val
+# Gunakan warna kontur seperti elevasi (hijau ke coklat ke putih)
+surface = go.Surface(
+    x=X, y=Y, z=Z,
+    colorscale=[
+        [0, '#2e8b57'],   # hijau
+        [0.3, '#a0522d'], # coklat
+        [0.6, '#deb887'], # tanah terang
+        [1, '#ffffff']    # salju
+    ],
+    cmin=Z.min(), cmax=Z.max(),
+    opacity=0.95,
+)
 
-fig = plt.figure(figsize=(8, 5))
-ax = fig.add_subplot(111, projection='3d')
-ax.plot_surface(L_mesh, K_mesh, Q_mesh, cmap='viridis')
-ax.set_xlabel("Tenaga Kerja (L)")
-ax.set_ylabel("Modal (K)")
-ax.set_zlabel("Output (Q)")
-st.pyplot(fig)
+# Titik dipilih pengguna
+point = go.Scatter3d(
+    x=[x0], y=[y0], z=[z0],
+    mode='markers',
+    marker=dict(size=6, color='red'),
+    name='Titik dipilih'
+)
+
+# Layout interaktif
+layout = go.Layout(
+    title="Gunung 3D Realistik (Interaktif)",
+    scene=dict(
+        xaxis_title='x (km)',
+        yaxis_title='y (km)',
+        zaxis_title='Ketinggian (m)',
+        aspectratio=dict(x=1, y=1, z=0.5)
+    )
+)
+
+fig = go.Figure(data=[surface, point], layout=layout)
+st.plotly_chart(fig, use_container_width=True)
